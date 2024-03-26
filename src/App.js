@@ -75,7 +75,7 @@ function App() {
         </h1>
 
         <div className=" mx-auto bg-white w-[160px] h-[160px] text-black flex justify-center items-center text-7xl">
-          {guessNumber}
+          {guessingText === "Correct Number!" ? guessNumber : "?"}
         </div>
 
         <p className="text-3xl">( Guess from 1 to 20 )</p>
